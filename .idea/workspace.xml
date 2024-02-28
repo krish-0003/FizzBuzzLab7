@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07106370-f809-4d82-b696-388008817389" name="Changes" comment="Intial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="07106370-f809-4d82-b696-388008817389" name="Changes" comment="Test: failing test for Fizz condition">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "JUnit.FizzBuzzTest.testFizz.executor": "Run",
+    "JUnit.FizzBuzzTest.testFizzAgain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -80,9 +80,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest.testFizzAgain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab7-FizzBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testFizzAgain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FizzBuzzTest.testFizz" />
+        <item itemvalue="JUnit.FizzBuzzTest.testFizzAgain" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -111,13 +128,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709163915180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test: failing test for Fizz condition">
+      <option name="closed" value="true" />
+      <created>1709164365684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709164365684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Intial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intial Commit" />
+    <MESSAGE value="Test: failing test for Fizz condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test: failing test for Fizz condition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

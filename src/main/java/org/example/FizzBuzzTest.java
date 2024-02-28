@@ -7,11 +7,7 @@ public class FizzBuzzTest {
 
     @Test
     public void testFizz() {
-        assertEquals("Fizz", FizzBuzz.fizzBuzz(3));//failing test:
-    }
-    @Test
-    public void testFizzAgain() {
-        assertEquals("Fizz", FizzBuzz.fizzBuzz(3));//retest the fizz code
+        assertEquals("Fizz", FizzBuzz.fizzBuzz(3));//failing test: as it will not expect fizz
     }
 
 
